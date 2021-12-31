@@ -1,6 +1,10 @@
 name: Super-Linter
 
-on: push
+on:
+  push
+  issues:
+    types: [opened, edited, milestoned]
+    
 
 jobs:
   super-lint:
