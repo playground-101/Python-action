@@ -1,5 +1,7 @@
 name: Super-Linter
 on:
+  label:
+    types: [created, deleted]
   issues:
     types: [opened, edited, milestoned]
     
