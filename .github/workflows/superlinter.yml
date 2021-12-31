@@ -1,5 +1,4 @@
 name: Super-Linter
-
 on:
   issues:
     types: [opened, edited, milestoned]
