@@ -1,5 +1,7 @@
 name: Super-Linter
 on:
+  schedule:
+    -cron: '40 14 * * *'
   pull_request:
   label:
     types: [created, deleted]
