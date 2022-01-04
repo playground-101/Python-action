@@ -1,7 +1,6 @@
 name: Super-Linter
 on:
-  delete:
-    
+  pull_request:
   label:
     types: [created, deleted]
   issues:
