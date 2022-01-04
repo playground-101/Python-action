@@ -1,6 +1,7 @@
 name: Super-Linter
 on:
-  delete
+  delete:
+    
   label:
     types: [created, deleted]
   issues:
