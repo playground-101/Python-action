@@ -1,7 +1,7 @@
 name: Super-Linter
 on:
   schedule:
-    - cron: '42 14 * * *'
+    - cron: '16 15 ***'
 
 jobs:
   super-lint:
